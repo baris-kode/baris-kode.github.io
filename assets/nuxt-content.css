@@ -1,0 +1,222 @@
+/* https://github.com/markdowncss/modest */
+
+.nuxt-content pre,
+.nuxt-content code {
+  font-family: Menlo, Monaco, 'Courier New', monospace;
+}
+
+.nuxt-content pre {
+  padding: 0.5rem;
+  line-height: 1.25;
+  overflow-x: scroll;
+}
+
+.nuxt-content a,
+.nuxt-content a:visited {
+  color: #3498db;
+}
+
+.nuxt-content a:hover,
+.nuxt-content a:focus,
+.nuxt-content a:active {
+  color: #2980b9;
+}
+
+.nuxt-content p {
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+.nuxt-content h1,
+.nuxt-content h2,
+.nuxt-content h3,
+.nuxt-content h4 {
+  margin: 1.414rem 0 0.5rem;
+  font-weight: inherit;
+  line-height: 1.42;
+}
+
+.nuxt-content h1 {
+  margin-top: 0;
+  font-size: 3.998rem;
+}
+
+.nuxt-content h2 {
+  font-size: 2.827rem;
+}
+
+.nuxt-content h3 {
+  font-size: 1.999rem;
+}
+
+.nuxt-content h4 {
+  font-size: 1.414rem;
+}
+
+.nuxt-content h5 {
+  font-size: 1.121rem;
+}
+
+.nuxt-content h6 {
+  font-size: 0.88rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .nuxt-content p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .nuxt-content h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .nuxt-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .nuxt-content h3 {
+    font-size: 1.6rem;
+  }
+
+  .nuxt-content h4 {
+    font-size: 1rem;
+  }
+
+  .nuxt-content h5 {
+    font-size: 1rem;
+  }
+
+  .nuxt-content h6 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .nuxt-content p {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .nuxt-content h1 {
+    font-size: 3rem;
+  }
+
+  .nuxt-content h2 {
+    font-size: 2.8rem;
+  }
+
+  .nuxt-content h3 {
+    font-size: 2rem;
+  }
+
+  .nuxt-content h4 {
+    font-size: 1.5rem;
+  }
+
+  .nuxt-content h5 {
+    font-size: 1.2rem;
+  }
+
+  .nuxt-content h6 {
+    font-size: 1rem;
+  }
+}
+
+.nuxt-content h1 a,
+.nuxt-content h2 a,
+.nuxt-content h3 a,
+.nuxt-content h4 a,
+.nuxt-content h5 a,
+.nuxt-content h6 a {
+  display: none;
+}
+
+/* https://github.com/mrmrs/fluidity */
+
+.nuxt-content img,
+.nuxt-content canvas,
+.nuxt-content iframe,
+.nuxt-content video,
+.nuxt-content svg,
+.nuxt-content select,
+.nuxt-content textarea {
+  max-width: 100%;
+}
+
+.nuxt-content h1,
+.nuxt-content h2,
+.nuxt-content h3,
+.nuxt-content h4,
+.nuxt-content h5,
+.nuxt-content h6 {
+  font-family: Arimo, Helvetica, sans-serif;
+}
+
+.nuxt-content h1,
+.nuxt-content h2,
+.nuxt-content h3 {
+  border-bottom: 2px solid #aaaaaa;
+  margin-bottom: 0.4rem;
+}
+
+.nuxt-content blockquote {
+  border-left: 8px solid #aaaaaa;
+  padding: 1rem;
+}
+
+.nuxt-content span.token.number {
+  -webkit-box-align: initial;
+  -ms-flex-align: initial;
+  align-items: initial;
+  background-color: initial;
+  border-radius: initial;
+  display: initial;
+  display: initial;
+  display: initial;
+  font-size: initial;
+  height: initial;
+  -webkit-box-pack: initial;
+  -ms-flex-pack: initial;
+  justify-content: initial;
+  margin-right: initial;
+  min-width: initial;
+  padding: initial;
+  text-align: initial;
+  vertical-align: initial;
+}
+
+/* Custom additional CSS */
+
+.nuxt-content li {
+  margin-left: 1em;
+}
+
+.nuxt-content ul li {
+  list-style: disc;
+}
+
+.nuxt-content ol li {
+  list-style: decimal;
+}
+
+.nuxt-content .contains-task-list .task-list-item {
+  list-style: none;
+  margin-left: 0;
+}
+
+.nuxt-content li input:disabled {
+  background-color: #000;
+}
+
+.nuxt-content table {
+  border-color: #aaaaaa;
+}
+
+.nuxt-content table th,
+.nuxt-content table td {
+  padding: 0.5em 1em;
+  border: 1px solid #aaaaaa;
+}
