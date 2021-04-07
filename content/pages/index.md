@@ -1,8 +1,8 @@
 ---
-title: 'Home Page'
-description: 'NUXTJS Blog Boilerplate'
+title: 'Beranda'
+description: 'Kumpulan baris kode program untuk belajar.'
 ---
 
-# NUXTJS Blog Boilerplate
+# Baris Kode
 
-This is the Home Page.
+Kumpulan baris kode program untuk belajar.

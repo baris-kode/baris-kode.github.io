@@ -1,8 +1,7 @@
 const type = 'website'
-const url = 'http://localhost'
-const title = 'NuxtJS Blog Boilerplate'
-const description =
-  'Blog template/boilerplate for static site using NuxtJS, Buefy, & Tailwind Typography CSS.'
+const url = 'https://baris-kode.github.io'
+const title = 'Baris-Kode'
+const description = 'Kumpulan baris kode program untuk belajar.'
 const mainImage = '/screenshot.png'
 
 export default (meta) => {

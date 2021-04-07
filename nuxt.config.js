@@ -11,7 +11,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'baris-kode-github-page',
+    title: 'Baris-Kode',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -27,13 +27,13 @@ export default {
       {
         hid: 'canonical',
         rel: 'canonical',
-        href: 'http://localhost',
+        href: 'https://baris-kode.github.io',
       },
     ],
   },
 
   publicRuntimeConfig: {
-    baseUrl: 'http://localhost',
+    baseUrl: 'https://baris-kode.github.io',
   },
 
   // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-loading-indicator
