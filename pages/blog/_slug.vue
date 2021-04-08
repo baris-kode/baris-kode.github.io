@@ -34,8 +34,10 @@ import SiteMeta from '~/utils/SiteMeta'
 
 export default Vue.extend({
   async asyncData({ $content, params }) {
-    const article = await $content('articles', params?.slug ?? '').fetch()
-    return { article }
+    const article = await $content('articles')
+      .where({ slug: params?.slug ?? '' })
+      .fetch()
+    return { article: (article as any)[0] }
   },
   head() {
     const article = (this as any)?.article
