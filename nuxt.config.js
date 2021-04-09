@@ -15,6 +15,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { property: 'fb:app_id', content: '1434123190253486' },
       { property: 'og:site_name', content: 'Misterabdul' },
       { property: 'og:image:width', content: '740' },
       { property: 'og:image:height', content: '300' },
@@ -28,6 +29,12 @@ export default {
         hid: 'canonical',
         rel: 'canonical',
         href: 'https://baris-kode.github.io',
+      },
+    ],
+    script: [
+      {
+        src: 'https://baris-kode.github.io/js/fb-sdk.js',
+        body: true,
       },
     ],
   },
