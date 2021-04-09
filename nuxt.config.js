@@ -39,6 +39,12 @@ export default {
     ],
   },
 
+  // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-router
+  router: {
+    base: '/',
+  },
+
+  // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-runtime-config
   publicRuntimeConfig: {
     baseUrl: 'https://baris-kode.github.io',
   },
@@ -54,6 +60,11 @@ export default {
   loading: {
     color: 'white',
     height: '3px',
+  },
+
+  // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-generate
+  generate: {
+    fallback: '404.html',
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
