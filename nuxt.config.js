@@ -33,6 +33,13 @@ export default {
     ],
     script: [
       {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-D2KC2JJ527',
+        async: true,
+      },
+      {
+        src: 'https://baris-kode.github.io/js/gtag.js',
+      },
+      {
         src: 'https://baris-kode.github.io/js/fb-sdk.js',
         body: true,
       },
