@@ -1,5 +1,5 @@
 const type = 'website'
-const url = 'https://baris-kode.github.io'
+const url = 'https://baris-kode.github.io/'
 const title = 'Baris-Kode'
 const description = 'Kumpulan baris kode program untuk belajar.'
 const mainImage = url + '/baris-kode.png'

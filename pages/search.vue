@@ -28,7 +28,7 @@ export default Vue.extend({
     const meta = SiteMeta({
       title: 'Search Results',
       description: 'List of search results.',
-      url: `${this.$config.baseUrl}/search`,
+      url: `${this.$config.baseUrl}/search/`,
     })
     return {
       title: 'Search Results',
@@ -37,7 +37,7 @@ export default Vue.extend({
         {
           hid: 'canonical',
           rel: 'canonical',
-          href: `${this.$config.baseUrl}/search`,
+          href: `${this.$config.baseUrl}/search/`,
         },
       ],
     }
