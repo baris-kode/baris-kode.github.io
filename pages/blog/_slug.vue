@@ -86,7 +86,7 @@ export default Vue.extend({
         title: article?.title,
         description: article?.description,
         url: `${this.$config.baseUrl}/blog/${this.$route?.params?.slug}`,
-        mainImage: '/images/' + article?.image?.src,
+        mainImage: `${this.$config.baseUrl}/images/${article?.image?.src}`,
       }
       return SiteMeta(metaData)
     },
