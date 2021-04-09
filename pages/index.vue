@@ -12,7 +12,6 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import SiteMeta from '~/utils/SiteMeta'
 import BlogItem from '~/components/BlogItem.vue'
 
 export default Vue.extend({
@@ -30,24 +29,6 @@ export default Vue.extend({
     return {
       pageQuery: 1,
       articles: {},
-    }
-  },
-  head() {
-    const meta = SiteMeta({
-      title: 'Blog Posts',
-      description: 'List of blog posts.',
-      url: `${this.$config.baseUrl}/blog`,
-    })
-    return {
-      title: 'Blog Articles',
-      meta: [...meta],
-      link: [
-        {
-          hid: 'canonical',
-          rel: 'canonical',
-          href: `${this.$config.baseUrl}/blog`,
-        },
-      ],
     }
   },
   watch: {
