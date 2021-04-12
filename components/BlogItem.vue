@@ -15,7 +15,7 @@
           <h2 class="h2">{{ formatTitle(article.title) }}</h2>
         </nuxt-link>
         <p v-if="hasAuthor(article)" class="author">
-          By :
+          Oleh :
           <a :href="getAuthor(article.author).link">
             {{ getAuthor(article.author).name }}</a
           >,
@@ -91,6 +91,9 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+.image {
+  margin: auto;
+}
 .h2 {
   font-size: 1.7rem;
   font-weight: 500;

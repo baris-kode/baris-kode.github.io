@@ -10,7 +10,7 @@
     <div v-if="hasAuthor(article)">
       <p class="author">
         <i>
-          By :
+          Oleh :
           <a :href="article.author.link">{{ article.author.name }}</a
           >,
           {{ formatDateTime(article.createdAt) }}
@@ -119,6 +119,9 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+.image {
+  margin: auto;
+}
 .author {
   margin-top: 10px;
   font-size: 1rem;
