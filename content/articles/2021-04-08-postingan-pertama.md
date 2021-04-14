@@ -9,6 +9,7 @@ author:
   name: Abdul Pasaribu
   link: https://github.com/misterabdul
 tags: 'pertama'
+createdAt: '2021-04-08'
 ---
 
 # Postingan Pertama

@@ -9,6 +9,7 @@ author:
   name: Abdul Pasaribu
   link: https://github.com/misterabdul
 tags: 'modal programmer'
+createdAt: '2021-04-12'
 ---
 
 # Modal Untuk Menjadi Seorang Programmer
