@@ -2,6 +2,9 @@
 slug: beralih-ke-linux
 title: Linux
 description: Saatnya beralih menggunakan Linux !
+image:
+  src: '2021-04-19-penguin-enjoyer.png'
+  alt: 'Beralih ke Linux'
 author:
   name: Abdul Pasaribu
   link: https://github.com/misterabdul
